@@ -1,5 +1,5 @@
 %define name alsamixertest
-%define version 47.14
+%define version 48.11
 %define fname %{name}_%{version}
 
 %define libname %mklibname %name
@@ -7,7 +7,7 @@
 Summary: A test tool for alsa mixer implementations
 Name:    %name
 Version: %version
-Release: %mkrel 2
+Release: %mkrel 1
 Source0:  https://launchpad.net/~diwic/+archive/ppa/+files/%{fname}.tar.gz
 License: GPLv3
 BuildRoot: %_tmppath/%name-buildroot
