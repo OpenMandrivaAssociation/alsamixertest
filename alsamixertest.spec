@@ -4,7 +4,7 @@
 Summary:		A test tool for alsa mixer implementations
 Name:			alsamixertest
 Version:		48.11
-Release:		2
+Release:		3
 Source0:		https://launchpad.net/~diwic/+archive/ppa/+files/%{fname}.tar.gz
 License:		GPLv3
 Group:		Sound
