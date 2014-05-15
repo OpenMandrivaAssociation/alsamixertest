@@ -2,7 +2,7 @@
 %define libname %mklibname %name
 
 Summary:		A test tool for alsa mixer implementations
-Name:			alsamixertest
+Name:		    alsamixertest
 Version:		48.11
 Release:		3
 Source0:		https://launchpad.net/~diwic/+archive/ppa/+files/%{fname}.tar.gz
@@ -10,7 +10,7 @@ License:		GPLv3
 Group:		Sound
 Url:		http://thread.gmane.org/gmane.comp.audio.pulseaudio.general/7542
 BuildRequires:	pkgconfig(fftw3)
-%py_requires -d
+BuildRequires:  pkgconfig(python)
 
 %description
 A small script which tests whether the ALSA mixer lives up to PulseAudio's (and
@@ -44,23 +44,3 @@ When it is installed, run "alsamixertest -r" for a small tutorial and
 %files
 %{_bindir}/%{name}
 %{_datadir}/%{name}
-
-
-%changelog
-* Wed Nov 03 2010 Funda Wang <fwang@mandriva.org> 48.11-2mdv2011.0
-+ Revision: 592779
-- rebuild for py 2.7
-
-* Sat Oct 02 2010 Colin Guthrie <cguthrie@mandriva.org> 48.11-1mdv2011.0
-+ Revision: 582509
-- New version: 48.11
-
-* Wed Sep 29 2010 Colin Guthrie <cguthrie@mandriva.org> 47.14-2mdv2011.0
-+ Revision: 582053
-- Fix spec name (copy/paste error)
-- Fix license after confirming with author
-
-* Mon Sep 27 2010 Colin Guthrie <cguthrie@mandriva.org> 47.14-1mdv2011.0
-+ Revision: 581257
-- import alsamixertest
-
