@@ -8,7 +8,7 @@ Release:		4
 Source0:		https://launchpad.net/~diwic/+archive/ppa/+files/%{fname}.tar.gz
 License:		GPLv3
 Group:		Sound
-Url:		http://thread.gmane.org/gmane.comp.audio.pulseaudio.general/7542
+Url:		https://thread.gmane.org/gmane.comp.audio.pulseaudio.general/7542
 BuildRequires:	pkgconfig(fftw3)
 BuildRequires:  pkgconfig(python)
 
