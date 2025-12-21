@@ -9,6 +9,7 @@ Source0:		https://launchpad.net/~diwic/+archive/ppa/+files/%{fname}.tar.gz
 License:		GPLv3
 Group:		Sound
 Url:		https://thread.gmane.org/gmane.comp.audio.pulseaudio.general/7542
+BuildRequires:	make
 BuildRequires:	pkgconfig(fftw3)
 BuildRequires:  pkgconfig(python)
 
